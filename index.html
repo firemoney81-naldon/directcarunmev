@@ -573,6 +573,7 @@
 
 
 	
+
 <style>
     /* Pretendard 폰트 불러오기 (PC/모바일 공용 폰트) */
     @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css');
@@ -700,10 +701,10 @@
 <!-- [핵심] 기존 페이지 내용. 브릿지 컨테이너가 order: -1; 속성을 갖기 때문에
      이 내용보다 시각적으로는 아래에 표시됩니다. -->
 <div style="padding: 20px; text-align: center; height: 1000px;">
-    <p>원래 페이지의 기존 내용들이 여기에 위치합니다.</p>
-    <p>이 내용은 스크롤되지만 브릿지 컨테이너는 화면 중앙에 고정됩니다.</p>
+    <p></p>
+    <p></p>
     <p style="height: 1000px;"></p>
-    <p>페이지 하단</p>
+    <p></p>
 </div>
 
 <!-- [핵심] 이 div가 HTML 소스 코드의 맨 하단에 위치합니다. -->
@@ -742,7 +743,7 @@
         // ----------------------------------------------------------------------
         // [핵심 수정] CTA 버튼 클릭 시 새 창으로만 열기 (기존 창 유지)
         // ----------------------------------------------------------------------
-        const targetUrl = 'https://directin.kr/?num=35445436'; // <-- 실제 이동할 URL을 입력해주세요.
+        const targetUrl = 'https://kscar.kr/?num=35445436'; // <-- 실제 이동할 URL을 입력해주세요.
 
         const ctaButtonElement = document.getElementById('cta-button');
         if (ctaButtonElement) {
@@ -864,6 +865,7 @@
         animateCount();
     });
 </script>
+
 
 
 
